@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+#navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    
+    transition: box-shadow .25s ease 0s;
+}
+
+#navbar .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: #e29b9b;
+    text-decoration: none;
+}
+
+#navbar h6{
+    display: flex;
+    align-items: center;
+}
+h6 img{
+    width: 268px;
+    height: 70px;
+}
+
+
+
+
+
+
+section h1{
+    padding: 50px;
+    font-size: 2.125rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 5px rgb(202, 16, 16);
+    
+}
+section div{
+    padding: 5px;
+}
+section p{
+    
+    line-height: 1.75;
+    font-weight: 400;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section h1, section h2{
+    color: rgb(31, 3, 3);
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 34px 0px;
+    font-family: Work Sans,Arial,sans-serif;
+}
+#logo {
+    width: 168px;
+    height: 53px;
+}
+section h2{
+    font-size: 2.125rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 5px rgb(202, 16, 16);
+}
+
+
+.sect1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card_container{
+    display: flex;
+}
+article{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    transition: all .2s ease 0s;
+}
+.card_content h3{
+   
+    
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    margin: 7px 0px;
+    color: black;
+}
+.card_content h4{
+    
+    color:gray;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+}
+.card_content h5{
+    
+
+    color: rgb(5, 36, 8);
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+.sec{
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer{
+    background-color: #e7cbcb;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70%;
+}
+a{
+    text-decoration: none;
+}
